@@ -6,8 +6,7 @@ import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupWithNavController
 import com.example.summerpracticesecond.databinding.ActivityMainBinding
-import com.example.summerpracticesecond.fragments.HomeFragment
-import com.example.summerpracticesecond.fragments.SearchFragment
+
 
 class MainActivity : AppCompatActivity() {
     private var _binding: ActivityMainBinding? = null

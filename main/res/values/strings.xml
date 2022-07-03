@@ -6,4 +6,14 @@
     <string name="menu_media">Media</string>
     <string name="menu_favorite">Favorite</string>
     <string name="menu_history">History</string>
+
+    <string name="fragment_home">Home Fragment</string>
+    <string name="fragment_search">Search Fragment</string>
+    <string name="fragment_media">Media Fragment</string>
+    <string name="fragment_favorite">Favorite Fragment</string>
+    <string name="fragment_history">History Fragment</string>
+
+    <string name="button_setting">Settings</string>
+    <string name="button_back">Back</string>
+
 </resources>

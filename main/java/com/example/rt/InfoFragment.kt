@@ -22,8 +22,9 @@ class InfoFragment: Fragment(R.layout.fragment_second) {
     }
 
     private fun text(id: Int){
-        binding.tvDescription.text = CountryData.countries[id].description + "\n" +
-                "ID: ${CountryData.countries[id].id}\n" +
-                "Url: ${CountryData.countries[id].url}"
+
+        binding.tvDescription.text = CountryData.countries.find { it.id == id }?.description + "\n" +
+                "ID: ${CountryData.countries.find { it.id == id }?.id}\n" +
+                "Url: ${CountryData.countries.find { it.id == id }?.url}"
     }
 }

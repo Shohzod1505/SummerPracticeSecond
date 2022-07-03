@@ -7,20 +7,20 @@
 
     <fragment
         android:id="@+id/mainFragment"
-        android:name="com.example.summerpracticethird.MainFragment"
+        android:name="com.example.rt.MainFragment"
         android:label="MainFragment"
         tools:layout="@layout/fragment_main">
         <action
-            android:id="@+id/action_mainFragment_to_infoFragment"
-            app:destination="@id/infoFragment" />
+            android:id="@+id/action_mainFragment_to_secondFragment"
+            app:destination="@id/secondFragment" />
     </fragment>
     <fragment
-        android:id="@+id/infoFragment"
-        android:name="com.example.summerpracticethird.InfoFragment"
-        android:label="InfoFragment"
-        tools:layout="@layout/fragment_info">
+        android:id="@+id/secondFragment"
+        android:name="com.example.rt.InfoFragment"
+        android:label="SecondFragment"
+        tools:layout="@layout/fragment_second">
         <action
-            android:id="@+id/action_infoFragment_to_mainFragment"
+            android:id="@+id/action_secondFragment_to_mainFragment"
             app:destination="@id/mainFragment" />
     </fragment>
 </navigation>

@@ -13,8 +13,8 @@ class CountryHolder(
         fun bind(country: Country) = with(binding){
             Glide.with(root)
                 .load(country.url)
-                .into(flag)
-            name.text = country.name
+                .into(ivFlag)
+            tvName.text = country.name
             root.setOnClickListener{
                 onItemClick(country)
             }
